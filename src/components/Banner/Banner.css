@@ -1,0 +1,24 @@
+.CustomContainer{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.banner-content{
+    margin: 8% 0 0 10%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner-content h1{
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.banner-content p{
+    color: #fff;
+}
+
+.firstBtn{
+    margin: 0 20px 0 0;
+}

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap');
 .App {
   text-align: center;
 }
@@ -35,4 +36,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.theme-button1{
+    border: none;
+    outline: none;
+    padding: 12px 30px;
+    background-color: #FFAA17;
+    text-transform: uppercase;
+}
+
+.theme-button2{
+    border: 1px solid #a3a5ad;
+    outline: none;
+    padding: 10px 30px;
+    background: none;
+    text-transform: uppercase;
 }
