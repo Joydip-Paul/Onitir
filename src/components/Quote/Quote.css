@@ -1,0 +1,45 @@
+.quote-area {
+  position: relative;
+}
+
+.bg-color{
+      background-color: #ffaa17;
+      /* clip-path: polygon(0 30%, 100% 45%, 100% 100%, 0% 100%); */
+}
+
+.left-img img {
+  z-index: 1;
+}
+
+.quote-content {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(10%,-50%); */
+  padding-top: 20%;
+}
+
+.quote-content h1 {
+  font-size: 50px;
+  color: #041d38;
+  font-weight: 700;
+}
+
+.arrow a{
+    background-color: #041d38;
+    padding: 20px 30px;
+    position: absolute;
+    right: 7.8%;
+    bottom: 0;
+    color: #fff;
+    z-index: 1;
+    text-decoration: none;
+}
+
+/* Responsive Code */
+@media only screen and (max-width: 767px) {
+  quote-content h1{
+  font-size: 30px;
+  font-weight: 600;
+  }
+}

@@ -74,3 +74,14 @@
 .dots{
     margin: 0 10px;
 }
+
+/* Responsive Code */
+@media only screen and (max-width: 767px) {
+    .top-header{
+        margin: 0 20px;
+        justify-content: flex-start;
+    }
+    .right-info{
+        margin-left: 2rem;
+    }
+}

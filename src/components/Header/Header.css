@@ -1,5 +1,6 @@
 .header-container {
-    height:800px;
+    height:100vh;
+    width: 100vw;
     position:relative;
     /* background-image: url('../../Images/banner.jpg'); */
     background:
@@ -10,7 +11,7 @@
     url('../../Images/banner.jpg');
     background-size: cover;
 }
-.header-container::after {
+/* .header-container::after {
     height:700px;
     content:' ';
     position: absolute;
@@ -19,4 +20,4 @@
     right: 0;
     background-color: #3A4256;
     z-index: -50;
-}
+} */

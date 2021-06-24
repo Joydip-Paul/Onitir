@@ -1,0 +1,83 @@
+.h-100{
+    margin-top: 100px;
+}
+
+.Services-area{
+   margin-bottom: 20px;
+   background-color: #FAFDFF;
+}
+
+.services-title{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.services-title p{
+    color: #ffaa17;
+    text-transform: uppercase;
+}
+
+.services-title h1{
+    color: #041d38;
+    font-weight: 700;
+}
+
+.card-area button{
+    border: none;
+    background: none;
+    color: #041d38;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card1 h2, .card2 h2, .card3 h2{
+    font-size: 20px;
+    padding: 16px 0;
+    font-weight: 600;
+}
+
+.card1 p, .card2 p, .card3 p{
+    font-size: 18px;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card1{
+    background-color: #fff;
+    padding: 30px 20px;
+
+}
+
+.card2{
+    background-color: #041d38;
+    padding: 30px 20px;
+    color: #fff;
+}
+
+.card2 button{
+    color: #ffaa17;
+}
+
+.card3{
+    background-color: #ffaa17;
+    padding: 30px 20px;
+}
+
+.card-area img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1s;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}

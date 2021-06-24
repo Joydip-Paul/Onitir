@@ -5,6 +5,7 @@ import pic2 from '../../Images/02.jpg'
 import pic3 from '../../Images/03.jpg'
 import icon1 from '../../Images/icon.png'
 import icon2 from '../../Images/icon-2.png'
+import { FaBeer } from "react-icons/fa";
 
 const About = () => {
     return (
@@ -33,7 +34,9 @@ const About = () => {
 
               <div className="projectCount">
                 <div className="experience">
-                  <h3>circle</h3>
+                  <h3>
+                    <FaBeer />
+                  </h3>
                   <h1>32+</h1>
                   <div className="content">
                     <h2>YEARS OF EXPERIENCE</h2>
@@ -45,7 +48,9 @@ const About = () => {
                 </div>
 
                 <div className="Together experience">
-                  <h3>circle</h3>
+                  <h3>
+                    <FaBeer />
+                  </h3>
                   <h1>99+</h1>
                   <div className="content">
                     <h2>PROJECT DONE TOGETHER</h2>
