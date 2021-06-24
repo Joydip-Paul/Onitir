@@ -9,8 +9,8 @@ const Banner = () => {
             WE Create <br /> Perfect Brand <br /> Goods Value
           </h1>
           <p>Bring your ideas to life with us</p>
-          <button className="theme-button2 firstBtn">Get Started now</button>
-          <button className="theme-button1 secondBtn">Learn More</button>
+          <button className="theme-button1 firstBtn">Get Started now</button>
+          <button className="theme-button2 secondBtn">Learn More</button>
         </div>
       </div>
     );
