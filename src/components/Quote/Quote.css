@@ -4,20 +4,39 @@
 
 .bg-color{
       background-color: #ffaa17;
-      /* clip-path: polygon(0 30%, 100% 45%, 100% 100%, 0% 100%); */
+      clip-path: polygon(0 13%, 100% 31%, 100% 100%, 0% 100%);
+      z-index: -1;
 }
 
 .left-img img {
   z-index: 1;
 }
 
-.quote-content {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(10%,-50%); */
-  padding-top: 20%;
+.manImg{
+  position: absolute;
+  top: -85px;
+   width: 30%;
 }
+
+.quote-content {
+  padding-top: 20%;
+  position: relative;
+}
+
+/* .bar:before {
+  content: "";
+  position: absolute;
+  background-color: #041d38;
+  width: 40px;
+  height: 2px;
+  margin-top: 10px;
+}
+
+.quote-content p {
+  text-transform: uppercase;
+  position: absolute;
+  left: 10%;
+} */
 
 .quote-content h1 {
   font-size: 50px;

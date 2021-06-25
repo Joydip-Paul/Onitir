@@ -16,7 +16,7 @@ const Services = () => {
         </div>
 
         <div className="row card-area">
-          <div className="col-md-4 card1">
+          <div className="col-md-3 card1">
             <img src={serviceIcon1} />
             <h2>DATE RESEARCH ANALYSIS</h2>
             <p>
@@ -26,7 +26,7 @@ const Services = () => {
             <button>Read More</button>
           </div>
 
-          <div className="col-md-4 card2 mt-3">
+          <div className="col-md-3 card2 mt-3">
             <img src={serviceIcon2} />
             <h2>DATE RESEARCH ANALYSIS</h2>
             <p>
@@ -36,7 +36,7 @@ const Services = () => {
             <button>Read More</button>
           </div>
 
-          <div className="col-md-4 card3 mt-5">
+          <div className="col-md-3 card3 mt-5">
             <img src={serviceIcon3} />
             <h2>DATE RESEARCH ANALYSIS</h2>
             <p>

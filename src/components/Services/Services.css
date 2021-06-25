@@ -22,6 +22,11 @@
     font-weight: 700;
 }
 
+.card-area{
+    display: flex;
+    justify-content: space-between;
+}
+
 .card-area button{
     border: none;
     background: none;
@@ -52,6 +57,7 @@
     background-color: #041d38;
     padding: 30px 20px;
     color: #fff;
+    margin-top: 50px;
 }
 
 .card2 button{
