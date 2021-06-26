@@ -44,7 +44,11 @@
     padding: 12px 30px;
     background-color: #FFAA17;
     text-transform: uppercase;
-    border: 1px solid #FFAA17;
+    border: 2px solid #FFAA17;
+}
+
+.theme-button1:hover{
+  border: 2px solid #cccccc;
 }
 
 .theme-button2{
@@ -59,4 +63,20 @@
 .theme-button2:hover{
   background-color: #FFAA17;
   color: #fff;
+}
+
+.h-100{
+    height: 100%;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.pb-50{
+    padding-bottom: 50px;
 }

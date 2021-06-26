@@ -7,7 +7,11 @@ import icon1 from "../../Images/icon.png";
 import icon2 from "../../Images/icon-2.png";
 import { FaBeer } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee, faGlobe } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCoffee,
+  faGlobe,
+  faCashRegister,
+} from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
   return (

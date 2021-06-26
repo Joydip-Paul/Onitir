@@ -2,7 +2,11 @@ import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import Logo from "../../Images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDotCircle,faDiceThree,faGripVertical } from "@fortawesome/free-solid-svg-icons";
+import {
+  faDotCircle,
+  faDiceThree,
+  faGripVertical,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [state, setState] = useState(0);
@@ -10,24 +14,23 @@ const Navbar = () => {
   //   nav: false
   // }
   function componentDidMount() {
-     window.addEventListener("scroll", this.handleScroll);
-   }
-   function  componentWillUnmount() {
-     window.removeEventListener("scroll");
-   }
-   const handleScroll= () => {
-     if (window.pageYOffset > 140) {
-         if(!this.state.nav){
-           this.setState({ nav: true });
-          }
-          console.log("working");
-     }else{
-         if(this.state.nav){
-           this.setState({ nav: false });
-         }
-     }
-
-   }
+    window.addEventListener("scroll", this.handleScroll);
+  }
+  function componentWillUnmount() {
+    window.removeEventListener("scroll");
+  }
+  const handleScroll = () => {
+    if (window.pageYOffset > 140) {
+      if (!this.state.nav) {
+        this.setState({ nav: true });
+      }
+      console.log("working");
+    } else {
+      if (this.state.nav) {
+        this.setState({ nav: false });
+      }
+    }
+  };
 
   return (
     <div className="container">
@@ -80,7 +83,7 @@ const Navbar = () => {
             Get a quote
           </a>
           <a href="#" className="theme-button1 dots">
-            <FontAwesomeIcon icon={faGripVertical} className = "navIcon" />
+            <FontAwesomeIcon icon={faGripVertical} className="navIcon" />
           </a>
         </div>
       </header>

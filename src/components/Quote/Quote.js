@@ -17,7 +17,7 @@ const Quote = () => {
         <div className="row bg-color">
           <div className="col-md-5 left-img">{/* <img src={Man} /> */}</div>
           <div className="col-md-7 quote-content">
-            {/* <div className = "bar"></div> */}
+            {/* <div classNameName = "bar"></div> */}
             <p>GET A QUOTE</p>
             <h1>
               WE ARE HERE FOR <br /> YOUR ESTIMATE PRICE.
