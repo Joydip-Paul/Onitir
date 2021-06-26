@@ -1,10 +1,36 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import Logo from "../../Images/logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDotCircle,faDiceThree,faGripVertical } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
+  const [state, setState] = useState(0);
+  // let state = {
+  //   nav: false
+  // }
+  function componentDidMount() {
+     window.addEventListener("scroll", this.handleScroll);
+   }
+   function  componentWillUnmount() {
+     window.removeEventListener("scroll");
+   }
+   const handleScroll= () => {
+     if (window.pageYOffset > 140) {
+         if(!this.state.nav){
+           this.setState({ nav: true });
+          }
+          console.log("working");
+     }else{
+         if(this.state.nav){
+           this.setState({ nav: false });
+         }
+     }
+
+   }
+
   return (
-    <div className="CustomContainer">
+    <div className="container">
       {/* Top Header */}
       <header className="top-header">
         <div className="left-info">
@@ -16,16 +42,13 @@ const Navbar = () => {
 
       {/* Main Header */}
       <header className="mainHeader">
-        {/* <div className = "logo">
-                              <a href="#">ONITIR</a>
-                       </div> */}
+        {/* <div className={`left-menu ${this.nav && "Nav__black"}`}
+        > */}
         <div className="left-menu">
           <a href="#" className="logo">
-            {/* ONITIR */}
             <img src={Logo} />
           </a>
           <ul>
-            {/* <li><a href="#" className = "logo">ONITIR</a></li> */}
             <li>
               {" "}
               <a href="#">Home</a>
@@ -57,7 +80,7 @@ const Navbar = () => {
             Get a quote
           </a>
           <a href="#" className="theme-button1 dots">
-            ...
+            <FontAwesomeIcon icon={faGripVertical} className = "navIcon" />
           </a>
         </div>
       </header>

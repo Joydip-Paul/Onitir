@@ -1,0 +1,17 @@
+.skill-area{
+    padding: 50px;
+    background-color: #F7FCFF;
+}
+
+.hireBtn{
+    padding: 0 0 50px 0;
+}
+
+.skill-content p{
+    color: #ffaa17;
+}
+
+.skill-content h1{
+    color: #041d38;
+    font-weight: 700;
+}

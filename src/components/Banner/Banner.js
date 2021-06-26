@@ -3,7 +3,7 @@ import './Banner.css';
 
 const Banner = () => {
     return (
-      <div className="CustomContainer">
+      <div className="container-fluid">
         <div className="banner-content">
           <h1>
             WE Create <br /> Perfect Brand <br /> Goods Value

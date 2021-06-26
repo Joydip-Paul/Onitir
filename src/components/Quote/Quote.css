@@ -23,21 +23,6 @@
   position: relative;
 }
 
-/* .bar:before {
-  content: "";
-  position: absolute;
-  background-color: #041d38;
-  width: 40px;
-  height: 2px;
-  margin-top: 10px;
-}
-
-.quote-content p {
-  text-transform: uppercase;
-  position: absolute;
-  left: 10%;
-} */
-
 .quote-content h1 {
   font-size: 50px;
   color: #041d38;
@@ -62,3 +47,31 @@
   font-weight: 600;
   }
 }
+
+
+/* .position-relative{
+  position: relative;
+} */
+
+/* .quote-area{
+  
+}
+
+.quote-inner{
+  background-color: #ffaa17;
+  clip-path: polygon(0 13%, 100% 31%, 100% 100%, 0% 100%);
+  z-index: -1;
+  padding: 100px 0;
+}
+
+.quote-img img{
+  z-index: 1;
+  position: absolute;
+  padding-bottom: 100px;
+}
+
+.quote-some-text{
+  font-size: 30px;
+} */
+
+

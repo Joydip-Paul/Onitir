@@ -22,26 +22,20 @@
     font-weight: 700;
 }
 
-.card-area{
+/* .card-area{
     display: flex;
     justify-content: space-between;
-}
+} */
 
-.card-area button{
-    border: none;
-    background: none;
-    color: #041d38;
-    font-weight: 600;
-    text-transform: uppercase;
-}
 
-.card1 h2, .card2 h2, .card3 h2{
+
+/* .card1 h2, .card2 h2, .card3 h2{
     font-size: 20px;
     padding: 16px 0;
     font-weight: 600;
-}
+} */
 
-.card1 p, .card2 p, .card3 p{
+/* .card1 p, .card2 p, .card3 p{
     font-size: 18px;
     padding: 10px 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -51,25 +45,25 @@
     background-color: #fff;
     padding: 30px 20px;
 
-}
+} */
 
-.card2{
+/* .card2{
     background-color: #041d38;
     padding: 30px 20px;
     color: #fff;
     margin-top: 50px;
-}
+} */
 
-.card2 button{
+/* .card2 button{
     color: #ffaa17;
 }
 
 .card3{
     background-color: #ffaa17;
     padding: 30px 20px;
-}
+} */
 
-.card-area img:hover {
+.card-item img:hover {
   animation: shake 0.5s;
   animation-iteration-count: 1s;
 }
@@ -86,4 +80,58 @@
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+.pb-70 {
+    padding-bottom: 70px;
+}
+.pb-30 {
+    padding-bottom: 30px;
+}
+.card-item {
+    background-color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+.card-item-two {
+    transform: translateY(50px);
+}
+.card-item-three {
+    transform: translateY(100px);
+}
+
+.card-item button{
+    border: none;
+    background: none;
+    color: #041d38;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card-item-two{
+    background-color: #041d38;
+    color: #fff;
+}
+
+.card-item-three{
+    background-color: #ffaa17;
+}
+
+.card-item p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0;
+}
+
+.card-item h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.card-item-two button{
+    color: #fff;
 }

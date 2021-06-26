@@ -6,6 +6,9 @@ import Quote from './components/Quote/Quote';
 import ChooseUs from './components/ChooseUs/ChooseUs';
 import IntroVideo from './components/IntroVideo/IntroVideo';
 import TeamCard from "./components/TeamCard/TeamCard";
+import Skill from './components/Skill/Skill';
+import CaseStudy from "./components/CaseStudy/CaseStudy";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +20,11 @@ function App() {
       <ChooseUs />
       <IntroVideo />
       <TeamCard />
+      <Skill />
+      <CaseStudy />
+
+      
+      <Footer />
     </div>
   );
 }
