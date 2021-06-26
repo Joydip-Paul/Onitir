@@ -16,7 +16,7 @@ const ChooseUs = () => {
           </div>
         </div>
         <div className="row chooseContent">
-          <div className="col-md-4 col-lg-6">
+          <div className="col-md-4">
             <div className="chooseLeft1">
               <h2> UNLIMITED LAYOUT</h2>
               <p>
@@ -39,10 +39,10 @@ const ChooseUs = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-4 col-lg-6">
+          <div className="col-md-4">
             <img src={Man} className="chooseImg" alt="" />
           </div>
-          <div className="col-md-4 col-lg-6">
+          <div className="col-md-4">
             <div className="chooseRight1">
               <h2> RETINA READY WORK</h2>
               <p>
