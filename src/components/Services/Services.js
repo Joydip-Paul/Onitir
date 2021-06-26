@@ -50,7 +50,7 @@ const Services = () => {
         <div className="row">
           <div className="col-lg-4 pb-30">
             <div className="card-item card-item-one">
-              <img src={serviceIcon1} />
+              <img src={serviceIcon1} alt="" />
               <h2>Date research analysis</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
@@ -61,7 +61,7 @@ const Services = () => {
           </div>
           <div className="col-lg-4 pb-30">
             <div className="card-item card-item-two">
-              <img src={serviceIcon2} />
+              <img src={serviceIcon2} alt="" />
               <h2>Date research analysis</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
@@ -72,7 +72,7 @@ const Services = () => {
           </div>
           <div className="col-lg-4 pb-30">
             <div className="card-item card-item-three">
-              <img src={serviceIcon3} />
+              <img src={serviceIcon3} alt="" />
               <h2>Date research analysis</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed

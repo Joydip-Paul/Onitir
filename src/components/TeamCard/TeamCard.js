@@ -11,7 +11,7 @@ const TeamCard = () => {
         <div className="row">
           <div className="col-lg-3 col-md-6 c1">
             <div className="single-team">
-              <img src={cardImg1} />
+              <img src={cardImg1} alt="" />
               <div className="plus">+</div>
               <div className="team-content">
                 <h4>Pokoloko k.Kilix</h4>
@@ -21,7 +21,7 @@ const TeamCard = () => {
           </div>
           <div className="col-lg-3 col-md-6 c1">
             <div className="single-team">
-              <img src={cardImg2} />
+              <img src={cardImg2} alt="" />
               <div className="plus">+</div>
               <div className="team-content">
                 <h4>Pokoloko k.Kilix</h4>
@@ -31,7 +31,7 @@ const TeamCard = () => {
           </div>
           <div className="col-lg-3 col-md-6 c1">
             <div className="single-team">
-              <img src={cardImg3} />
+              <img src={cardImg3} alt="" />
               <div className="plus">+</div>
               <div className="team-content">
                 <h4>Pokoloko k.Kilix</h4>
@@ -41,7 +41,7 @@ const TeamCard = () => {
           </div>
           <div className="col-lg-3 col-md-6 c1">
             <div className="single-team">
-              <img src={cardImg1} />
+              <img src={cardImg1} alt =""/>
               <div className="plus">+</div>
               <div className="team-content">
                 <h4>Pokoloko k.Kilix</h4>

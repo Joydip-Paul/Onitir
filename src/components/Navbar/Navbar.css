@@ -1,8 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-     font-family: 'Oswald', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
 }
 
 /* .CustomContainer{
@@ -14,77 +14,122 @@
     margin: 0 30px;
 } */
 
-.top-header{
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-    text-transform: uppercase;
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  text-transform: uppercase;
 }
 
-.left-info{
-    display: flex;
-    font-weight: 500;
+.left-info {
+  display: flex;
+  font-weight: 500;
 }
 
-.phone{
-    margin-left: 20px;
+.phone {
+  margin-left: 20px;
 }
 
-.mainHeader{
-    display: flex;
-    justify-content: space-between;
-    background-color: #fff;
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
 }
 
-.left-menu{
-    display: flex;
+.left-menu {
+  display: flex;
 }
 
-.left-menu ul{ 
-    list-style: none;
-    display: flex;
-    margin-top: 8px;
+.left-menu ul {
+  list-style: none;
+  display: flex;
+  margin-top: 8px;
 }
 
-.logo{
-    font-size: 25px;
-    text-decoration: none;
-    font-weight: 600;
-    color: #000;
-    margin-top: -10px;
+.logo {
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+  margin-top: -10px;
 }
 
-.left-menu, .right-menu{
-    padding: 25px;
-    margin-top: 10px;
+.left-menu,
+.right-menu {
+  padding: 25px;
+  margin-top: 10px;
 }
 
-.left-menu ul li a{
-     margin: 0 15px;
-     text-transform: uppercase;
-     text-decoration: none;
-     color: #000;
+.left-menu ul li a {
+  margin: 0 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
 }
 
-.right-menu a{ 
-    text-decoration: none;
-    color: #000;
-    text-transform: uppercase;
+.right-menu a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
 }
 
-
-.dots{
-    margin: 0 10px;
+.dots {
+  margin: 0 10px;
 }
-
 
 /* Responsive Code */
 @media only screen and (max-width: 767px) {
-    .top-header{
-        margin: 0 20px;
-        justify-content: flex-start;
-    }
-    .right-info{
-        margin-left: 2rem;
-    }
+  .top-header {
+    margin: 0 20px;
+    justify-content: flex-start;
+  }
+  .right-info {
+    margin-left: 2rem;
+  }
+
+  .left-menu {
+    flex-direction: column;
+  }
+  .left-menu ul {
+    flex-direction: column;
+    font-size: 12px;
+  }
+}
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .top-header {
+    margin: 0 20px;
+    justify-content: flex-start;
+  }
+  .right-info {
+    margin-left: 2rem;
+  }
+
+  .left-menu {
+    flex-direction: column;
+  }
+  
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .top-header {
+    margin: 0 20px;
+    justify-content: flex-start;
+  }
+  .right-info {
+    margin-left: 2rem;
+  }
+  .left-menu {
+    flex-direction: column;
+  }
+  .left-menu ul {
+    flex-direction: column;
+  }
+  .left-menu ul {
+    font-size: 12px;
+  }
 }

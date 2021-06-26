@@ -1,0 +1,25 @@
+.review-area{
+    background-color: #F7FCFF;
+}
+
+.rating  img{
+    width: 25px;
+}
+
+.rating a{
+    color: #ffaa17;
+}
+.client-comment h1{
+    padding: 20px 0;
+    color: #041d38;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 767px) {
+    .client-comment h1{
+    font-size: 30px;
+    text-align: center;
+}
+}

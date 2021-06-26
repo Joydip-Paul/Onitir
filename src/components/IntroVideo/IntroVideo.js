@@ -1,6 +1,6 @@
 import React from "react";
 import "./IntroVideo.css";
-import laptop from "../../Images/videoLaptop.jpg";
+import laptop from "../../Images/laptop.jpeg";
 
 const IntroVideo = () => {
   return (
@@ -8,7 +8,7 @@ const IntroVideo = () => {
       <div className="container-fluid p-0">
         <div className="row m-0">
           <div className="col-md-6 video-left p-0">
-            <img src={laptop} />
+            <img src={laptop} alt="" />
           </div>
           <div className="col-md-6 p-0">
             <div className="video-right">

@@ -10,6 +10,7 @@ import Skill from "./components/Skill/Skill";
 import CaseStudy from "./components/CaseStudy/CaseStudy";
 import Footer from "./components/Footer/Footer";
 import NewsFeed from "./components/NewsFeed/NewsFeed";
+import Review from './components/Review/Review';
 
 function App() {
   return (
@@ -21,9 +22,9 @@ function App() {
       <ChooseUs />
       <IntroVideo />
       <TeamCard />
-      <Skill />
+      <Skill done1="70" done2="50" done3="60" />
       <CaseStudy />
-
+      <Review />
       <NewsFeed />
       <Footer />
     </div>

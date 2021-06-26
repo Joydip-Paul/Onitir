@@ -20,7 +20,7 @@ const CaseStudy = () => {
         <div className="row">
           <div className="col-md-4">
             <div className="single-team">
-              <img src={cs2} />
+              <img src={cs2} alt="" />
               <div className="team-content">
                 <p>UIX DESIGN</p>
                 <h4>MIXER WEBSITE SOLUTION</h4>
@@ -30,7 +30,7 @@ const CaseStudy = () => {
 
           <div className="col-md-4">
             <div className="single-team">
-              <img src={cs3} />
+              <img src={cs3} alt="" />
               <div className="team-content">
                 <p>UIX DESIGN</p>
                 <h4>MIXER WEBSITE SOLUTION</h4>
@@ -40,7 +40,7 @@ const CaseStudy = () => {
 
           <div className="col-md-4">
             <div className="single-team">
-              <img src={cs4} />
+              <img src={cs4} alt="" />
               <div className="team-content">
                 <p>UIX DESIGN</p>
                 <h4>MIXER WEBSITE SOLUTION</h4>
@@ -50,7 +50,7 @@ const CaseStudy = () => {
 
           <div className="col-md-4 mt-3">
             <div className="single-team">
-              <img src={cs4} />
+              <img src={cs4} alt="" />
               <div className="team-content">
                 <p>UIX DESIGN</p>
                 <h4>MIXER WEBSITE SOLUTION</h4>

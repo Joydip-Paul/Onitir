@@ -8,14 +8,15 @@
 
 .video-left img {
   width: 100%;
-  height: 490px;
   background-size: cover;
+   height: 400px;
 }
 
 .video-right {
   background-color: #041d38;
   color: #fff;
-  padding: 100px;
+  padding: 60px;
+  height: 400px;
 }
 
 .video-right h4 {

@@ -22,7 +22,7 @@ const NewsFeed = () => {
                   <a href="#">10 COMMENTS</a>
                 </div>
                 <div className="blog-img">
-                  <img src={newsFeed1} />
+                  <img src={newsFeed1} alt="" />
                 </div>
 
                 <div className="blog-title">
@@ -44,7 +44,7 @@ const NewsFeed = () => {
                   <a href="#">10 COMMENTS</a>
                 </div>
                 <div className="blog-img">
-                  <img src={newsFeed1} />
+                  <img src={newsFeed1} alt="" />
                 </div>
 
                 <div className="blog-title">
@@ -66,7 +66,7 @@ const NewsFeed = () => {
                   <a href="#">10 COMMENTS</a>
                 </div>
                 <div className="blog-img">
-                  <img src={newsFeed1} />
+                  <img src={newsFeed1} alt="" />
                 </div>
 
                 <div className="blog-title">

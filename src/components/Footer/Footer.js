@@ -6,9 +6,12 @@ import footerImg2 from "../../Images/footerImg2.jpg";
 import footerImg3 from "../../Images/footerImg3.jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Facebook from "../../Images/facebook-brands.svg";
+import Twitter from "../../Images/twitter-brands.svg";
+import Behance from "../../Images/behance-brands.svg";
+
 import {
   faGripVertical,
-  faFacebook,
   faCalendar,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -20,14 +23,26 @@ const Footer = () => {
           <div className="row">
             <div className="top-footer">
               <div className="footer-logo">
-                <img src={footerLogo} />
+                <a href="#">
+                  <img src={footerLogo} alt="" />
+                </a>
               </div>
               <div className="footer-icon">
-                <FontAwesomeIcon icon={faGripVertical} />
-                <FontAwesomeIcon icon={faGripVertical} />
-                <FontAwesomeIcon icon={faGripVertical} />
-                <FontAwesomeIcon icon={faGripVertical} />
-                <FontAwesomeIcon icon={faGripVertical} />
+                <a href="#">
+                  <img src={Facebook} alt="" />
+                </a>
+                <a href="#">
+                  <img src={Twitter} alt="" />
+                </a>
+                <a href="#">
+                  <img src={Behance} alt="" />
+                </a>
+                <a href="#">
+                  <img src={Facebook} alt="" />
+                </a>
+                <a href="#">
+                  <img src={Twitter} alt="" />
+                </a>
               </div>
             </div>
           </div>
@@ -37,7 +52,7 @@ const Footer = () => {
       <div className="main-footer">
         <div className="container">
           <div className="row">
-            <div className="col-md-3">
+            <div className="col-lg-3 col-md-6">
               <div className="footer-menu">
                 <h3>COMPANY</h3>
                 <ul className="footer-menu-list">
@@ -69,7 +84,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-md-3">
+            <div className="col-lg-3 col-md-6">
               <div className="footer-menu">
                 <h3>COMMUNITY</h3>
                 <ul>
@@ -101,7 +116,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-md-3">
+            <div className="col-lg-3 col-md-6">
               <div className="footer-menu">
                 <h3>SOLUTIONS</h3>
                 <ul>
@@ -133,12 +148,12 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-md-3">
+            <div className="col-lg-3 col-md-6">
               <div className="footer-menu">
                 <h3>NEWS FEEDS</h3>
                 <div className="footer-right">
                   <div className="footer-right-img">
-                    <img src={footerImg1} />
+                    <img src={footerImg1} alt="" />
                   </div>
                   <div className="footer-right-text">
                     {/* <FontAwesomeIcon icon={faCalendar} /> */}
@@ -149,7 +164,7 @@ const Footer = () => {
 
                 <div className="footer-right">
                   <div className="footer-right-img">
-                    <img src={footerImg2} />
+                    <img src={footerImg2} alt="" />
                   </div>
                   <div className="footer-right-text">
                     {/* <FontAwesomeIcon icon={faCalendar} /> */}
@@ -160,7 +175,7 @@ const Footer = () => {
 
                 <div className="footer-right">
                   <div className="footer-right-img">
-                    <img src={footerImg3} />
+                    <img src={footerImg3} alt="" />
                   </div>
                   <div className="footer-right-text">
                     {/* <FontAwesomeIcon icon={faCalendar} /> */}

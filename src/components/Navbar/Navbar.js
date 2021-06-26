@@ -49,7 +49,7 @@ const Navbar = () => {
         > */}
         <div className="left-menu">
           <a href="#" className="logo">
-            <img src={Logo} />
+            <img src={Logo} alt="" />
           </a>
           <ul>
             <li>

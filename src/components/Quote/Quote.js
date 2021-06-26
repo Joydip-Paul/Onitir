@@ -8,13 +8,12 @@ const Quote = () => {
   return (
     <section className="quote-area">
       <div className="container">
-        <div className="arrow">
-          <a href="">
-            <FontAwesomeIcon icon={faArrowRight} />
-          </a>
-        </div>
-
         <div className="row bg-color">
+          <div className="arrow">
+            <a href = "">
+              <FontAwesomeIcon icon={faArrowRight} />
+            </a>
+          </div>
           <div className="col-md-5 left-img">{/* <img src={Man} /> */}</div>
           <div className="col-md-7 quote-content">
             {/* <div classNameName = "bar"></div> */}
@@ -24,7 +23,7 @@ const Quote = () => {
             </h1>
           </div>
         </div>
-        <img src={Man} className="manImg" />
+        <img src={Man} className="manImg" alt="" />
       </div>
     </section>
 

@@ -17,15 +17,17 @@ const About = () => {
   return (
     <section className="about-area" id="about">
       <div className="container">
-        <div className="row">
-          <div className="col-md-6 about-img">
-            <img src={pic1} className="image1" />
-            <img src={pic3} className="image2" />
-            <img src={icon1} className="image3" />
-            <img src={icon2} className="image4" />
-            <img src={pic2} className="image5" />
+        <div className="row fc">
+          <div className="col-md-6 col-lg-6">
+            <div className="about-img">
+              <img src={pic1} className="image1" alt="" />
+              <img src={pic3} className="image2" alt="" />
+              <img src={icon1} className="image3" alt="" />
+              <img src={icon2} className="image4" alt="" />
+              <img src={pic2} className="image5" alt="" />
+            </div>
           </div>
-          <div className="col-md-6 about-content">
+          <div className="col-md-6 col-lg-6 about-content">
             <div className="aboutUs">
               <div className="bar"></div>
               <p>About us</p>
@@ -40,9 +42,9 @@ const About = () => {
 
             <div className="projectCount">
               <div className="experience">
-                <h3>
+                <a href="#">
                   <FontAwesomeIcon icon={faGlobe} />
-                </h3>
+                </a>
                 <h1>32+</h1>
                 <div className="content">
                   <h2>YEARS OF EXPERIENCE</h2>
@@ -54,9 +56,9 @@ const About = () => {
               </div>
 
               <div className="Together experience">
-                <h3>
+                <a href="#">
                   <FontAwesomeIcon icon={faGlobe} />
-                </h3>
+                </a>
                 <h1>99+</h1>
                 <div className="content">
                   <h2>PROJECT DONE TOGETHER</h2>

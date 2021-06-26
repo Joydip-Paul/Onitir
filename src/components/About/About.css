@@ -39,6 +39,10 @@
   color: #ffaa17;
 }
 
+.fc{
+  display: flex;
+}
+
 .bar:before {
   content: "";
   position: absolute;
@@ -77,11 +81,15 @@
   justify-content: space-between;
 }
 
-.experience h3 {
+.experience a {
   border: 5px solid #ffaa17;
   border-radius: 50%;
-  padding: 20px 20px;
+  padding: 20px;
   font-size: 25px;
+  color: #041d38;
+  margin: 5px 0;
+  height: 85px;
+  width: 80px;
 }
 
 .experience h1 {
@@ -92,7 +100,7 @@
 }
 
 .content h2 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
   color: #041d38;
 }
@@ -104,12 +112,44 @@
 /* Responsive code */
 @media only screen and (max-width: 767px) {
   .about-content {
-      
+     margin-top: 100px; 
   }
   .about-content h1 {
   font-size: 20px;
 }
 .about-img{
     margin-bottom: 150px;
+}
+.fc{
+      flex-direction: column;
+    }
+}
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+   .fc{
+      flex-direction: column;
+    }
+  
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .fc{
+      flex-direction: column;
+    }
+    .about-content {
+     padding-top: 150px; 
+  }
+  .experience a {
+  padding: 20px;
+  font-size: 25px;
+  color: #041d38;
+  margin: 5px 0;
+  height: 65px;
+  width: 60px;
 }
 }

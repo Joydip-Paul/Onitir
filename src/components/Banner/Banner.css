@@ -8,8 +8,12 @@
     font-family: 'Oswald', sans-serif;
 }
 
+.banner-btn{
+    padding-bottom: 100px;
+}
+
 .banner-content h1{
-    font-size: 60px;
+    font-size: 50px;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
@@ -22,4 +26,39 @@
 
 .firstBtn{
     margin: 0 20px 0 0;
+}
+
+/* Responsive Code */
+@media only screen and (max-width: 767px) {
+    .banner-content h1{
+    font-size: 30px;
+}
+
+.banner-content p{
+    font-size: 20px;
+}
+}
+
+/* Responsive Code */
+@media only screen and (max-width: 767px) {
+  .banner-content h1{
+    display: block;
+}
+}
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+   .banner-content h1{
+    font-size: 30px;
+}
+  
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner-content h1{
+    font-size: 30px;
+}
 }

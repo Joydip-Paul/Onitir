@@ -19,19 +19,16 @@
 
 .team-content {
     position: absolute;
-    /* background: #333; */
     width: 100%;
     transition: .3s;
     left: 0;
     top: 70%;
-    /* bottom: -115px; */
 }
 .team-content h4 {
     text-transform: capitalize;
     font-size: 25px;
     font-weight: 700;
     color: #fff;
-    /* margin-bottom: 10px; */
     padding: 25px;
     text-transform: uppercase;
     line-height: 8px;
@@ -54,9 +51,6 @@
     font-weight: 600;
     color: #fff;
 }
-/* .single-team:hover .team-content{
-    bottom: 0;
-} */
 
 .plus{
     position: absolute;
