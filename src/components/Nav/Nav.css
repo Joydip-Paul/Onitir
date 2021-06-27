@@ -57,7 +57,7 @@
   margin: 0 10px;
 }
 
-.Navbar .leftSide  button{
+.Navbar .leftSide  .ham-btn{
     display: none;
     margin-left: 20px;
 }
@@ -82,8 +82,12 @@
     margin: 0 20px;
     justify-content: flex-start;
   }
+  .left-info{
+      font-size: 10px;
+  }
   .right-info {
-    margin-left: 2rem;
+    margin-left: 1rem;
+    font-size: 10px;
   }
   .top-header {
     margin: 0 20px;
@@ -92,28 +96,30 @@
   .Navbar .leftSide .links{
     display: none;
 }
-.Navbar .leftSide  button{
+.Navbar .leftSide  .ham-btn{
     display: flex;
 }
 .rightSide a {
   font-size: 12px;
 }
+#hidden{
+    padding: 30px 0;
+}
 .Navbar .leftSide #hidden{
     position: absolute;
-    left: 65px;
+    left: 40px;
     top: 150px;
     height: 350px;
     max-height: 350px;
     width: 80%;
     justify-content: center;
-    /* margin: 10px; */
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .Navbar .leftSide #hidden a{
-    margin: 10px;
+    margin: 5px;
     font-size: 20px;
     color: #000;
 }
@@ -165,22 +171,7 @@
   color: #ffffff;
 
 }
-/* .Navbar .leftSide #hidden{
-    position: absolute;
-    left: 45px;
-    top: 150px;
-    height: 330px;
-    max-height: 330px;
-    width: 90%;
-    background-color: #ffaa17;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.Navbar .leftSide #hidden a{
-    margin: 10px;
-    font-size: 20px;
-} */
+
 
 .Navbar .leftSide .links a{
     font-size: 20px;

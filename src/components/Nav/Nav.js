@@ -5,7 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faDotCircle,
   faDiceThree,
-  faGripVertical,
+    faGripVertical,
+    faHamburger,
+  faBars,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = () => {
@@ -33,7 +35,13 @@ const Nav = () => {
             <a href="#">News</a>
             <a href="#">Contact</a>
           </div>
-          <button onClick={() => setShowLinks(!showLinks)}>open</button>
+          <div className = "ham-btn">
+            <FontAwesomeIcon
+              onClick={() => setShowLinks(!showLinks)}
+              icon={faBars}
+            />
+          </div>
+          {/* <button onClick={() => setShowLinks(!showLinks)}>open</button> */}
         </div>
         <div className="rightSide">
           <a href="#" className="theme-button2">
