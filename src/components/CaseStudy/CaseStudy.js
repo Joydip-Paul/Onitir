@@ -18,7 +18,7 @@ const CaseStudy = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-4 mt-3">
             <div className="single-team">
               <img src={cs2} alt="" />
               <div className="team-content">
@@ -28,7 +28,7 @@ const CaseStudy = () => {
             </div>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4 mt-3">
             <div className="single-team">
               <img src={cs3} alt="" />
               <div className="team-content">
@@ -38,7 +38,7 @@ const CaseStudy = () => {
             </div>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4 mt-3">
             <div className="single-team">
               <img src={cs4} alt="" />
               <div className="team-content">

@@ -52,7 +52,9 @@ const Skill = ({done1,done2,done3}) => {
             </div>
           </div>
           <div className="col-md-6">
-            <img src={skillGirl} alt="" />
+            <div className = "skilImage">
+              <img src={skillGirl} alt="" />
+            </div>
           </div>
         </div>
       </div>

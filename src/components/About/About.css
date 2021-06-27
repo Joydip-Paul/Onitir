@@ -123,6 +123,24 @@
 .fc{
       flex-direction: column;
     }
+    .image5 {
+  position: absolute;
+  left: 10px;
+  top: 20rem;
+  display: none;
+}
+.image2 {
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+.image4 {
+  position: absolute;
+  left: -2rem;
+  top: 15rem;
+  z-index: 1;
+  width: 200px;
+}
 }
 
 
