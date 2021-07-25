@@ -22,47 +22,6 @@
     font-weight: 700;
 }
 
-/* .card-area{
-    display: flex;
-    justify-content: space-between;
-} */
-
-
-
-/* .card1 h2, .card2 h2, .card3 h2{
-    font-size: 20px;
-    padding: 16px 0;
-    font-weight: 600;
-} */
-
-/* .card1 p, .card2 p, .card3 p{
-    font-size: 18px;
-    padding: 10px 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.card1{
-    background-color: #fff;
-    padding: 30px 20px;
-
-} */
-
-/* .card2{
-    background-color: #041d38;
-    padding: 30px 20px;
-    color: #fff;
-    margin-top: 50px;
-} */
-
-/* .card2 button{
-    color: #ffaa17;
-}
-
-.card3{
-    background-color: #ffaa17;
-    padding: 30px 20px;
-} */
-
 .card-item img:hover {
   animation: shake 0.5s;
   animation-iteration-count: 1s;

@@ -15,37 +15,6 @@ const Services = () => {
           </div>
         </div>
 
-        {/* <div className="row card-area">
-          <div className="col-md-3 card1">
-            <img src={serviceIcon1} />
-            <h2>Date research analysis</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore.
-            </p>
-            <button>Read More</button>
-          </div>
-
-          <div className="col-md-3 card2 mt-3">
-            <img src={serviceIcon2} />
-            <h2>Date research analysis</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore.
-            </p>
-            <button>Read More</button>
-          </div>
-
-          <div className="col-md-3 card3 mt-5">
-            <img src={serviceIcon3} />
-            <h2>Date research analysis</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore.
-            </p>
-            <button>Read More</button>
-          </div>
-        </div> */}
 
         <div className="row">
           <div className="col-lg-4 pb-30">

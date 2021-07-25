@@ -14,16 +14,16 @@ const Quote = () => {
               <FontAwesomeIcon icon={faArrowRight} />
             </a>
           </div>
-          <div className="col-md-5 left-img">{/* <img src={Man} /> */}</div>
-          <div className="col-md-7 quote-content">
-            {/* <div classNameName = "bar"></div> */}
+          <div className="col-md-12 quote-content">
             <p>GET A QUOTE</p>
             <h1>
               WE ARE HERE FOR <br /> YOUR ESTIMATE PRICE.
             </h1>
           </div>
         </div>
-        <img src={Man} className="manImg" alt="" />
+        {/* <div>
+          <img src={Man} className="manImg" alt="" />
+        </div> */}
       </div>
     </section>
 

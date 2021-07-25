@@ -26,6 +26,7 @@
 
 .firstBtn{
     margin: 0 20px 0 0;
+    transition: all .5s;
 }
 
 /* Responsive Code */
